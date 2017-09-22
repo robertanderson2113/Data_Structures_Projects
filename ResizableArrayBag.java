@@ -41,7 +41,9 @@ public class ResizableArrayBag<T> implements BagInterface<T>
       {
 
         bag = Arrays.copyOf(bag, bag.length + 3);
-	  	//result = false;
+	bag[numberOfEntries] = newEntry;	
+        numberOfEntries++;
+		//result = false;
       }
       else
       {  // Assertion: result is true here
