@@ -47,6 +47,7 @@ public class Main extends ResizableArrayBag {
                 artistBag1.add(anArtistArray1);
             }*/
         //read the file to an array and print contents to console
+  		long startTime = System.nanoTime();
         while (inFile2.hasNextLine()) {
             for (int i = 0; i < artistArrayAdd.length; i++) {
                 String[] line2 = inFile2.nextLine().split("\t");
@@ -71,6 +72,13 @@ public class Main extends ResizableArrayBag {
 
                 }
             }
+           long endTime = System.nanoTime();
+            long duration = (endTime - startTime);
+
+            //Print out the size of the artist Bag to ensure no spaces are being left open and to prove items are actually being removed
+           toFile1.write("Total artists in the bag: " + artistBag1.getCurrentSize() + "\n");
+           toFile1.write("Total time of method: " + duration + "\n\n");
+            
             //Print out the size of the artist Bag to ensure no spaces are being left open
             System.out.println(artistBag1.getCurrentSize());
 
