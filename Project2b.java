@@ -78,8 +78,8 @@ public class Main extends ResizableArrayBag {
             long duration = (endTime - startTime);
 
             //Print out the size of the artist Bag to ensure no spaces are being left open and to prove items are actually being removed
-            toFile1.write("Total artists in the bag: " + artistBag1.getCurrentSize() + "\n");
-           toFile1.write("Total time of method: " + duration + "\n\n");
+            toFile2.write("Total artists in the bag: " + artistBag1.getCurrentSize() + "\n");
+           toFile2.write("Total time of method: " + duration + "\n\n");
             //Print out the size of the artist Bag to ensure no spaces are being left open
             System.out.println(artistBag1.getCurrentSize());
 
