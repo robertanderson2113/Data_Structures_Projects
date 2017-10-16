@@ -136,7 +136,7 @@ public class Postfix
         return (valueStack.peek()).doubleValue();
     } // end evaluatePostfix
 
-    private static double valueOf(char variable)
+    static double valueOf(char variable)
     {
         switch (variable)
         {
@@ -151,6 +151,23 @@ public class Postfix
         } // end switch
 
         return 0; // Unexpected character
+    } // end valueOf
+
+    static String replaceChar(char variable)
+    {
+        switch (variable)
+        {
+            case 'a': return "2";
+            case 'b': return "3";
+            case 'c': return "4";
+            case 'd': return "5";
+            case 'e': return "6";
+            case 'f': return "0";
+            case 'g': return "1";
+            case 'h': return "8";
+        } // end switch
+
+        return "0"; // Unexpected character
     } // end valueOf
 
     private static Double compute(Double operandOne, Double operandTwo, char operator)
