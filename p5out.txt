@@ -1,133 +1,185 @@
-Index	Factorial                     	Ex Time   	(RECURSIVE FACTORIAL)
-1    	1                             	427       
-2    	2                             	1663150   
-3    	6                             	1802243   
-4    	24                            	2330031   
-5    	120                           	2464005   
-6    	720                           	2588592   
-7    	5040                          	2708912   
-8    	40320                         	2815579   
-9    	362880                        	2970459   
-10   	3628800                       	3087792   
-11   	39916800                      	3227739   
-12   	479001600                     	3381340   
-13   	6227020800                    	3525126   
-14   	87178291200                   	3692807   
-15   	1307674368000                 	3811420   
-16   	20922789888000                	3964594   
-17   	355687428096000               	4089181   
-18   	6402373705728000              	4251314   
-19   	121645100408832000            	4362248   
-20   	2432902008176640000           	4480008   
+TEST FACTORIAL METHODS
+Test Value	Factorial                     	Ex Time   	(RECURSIVE FACTORIAL)
+1         	1                             	810668    
+2         	2                             	853       
+3         	6                             	853       
+4         	24                            	853       
+5         	120                           	853       
+6         	720                           	853       
+7         	5040                          	4693      
+8         	40320                         	854       
+9         	362880                        	853       
+10        	3628800                       	1280      
+11        	39916800                      	1280      
+12        	479001600                     	1280      
+13        	6227020800                    	1280      
+14        	87178291200                   	854       
+15        	1307674368000                 	3413      
+16        	20922789888000                	1280      
+17        	355687428096000               	1280      
+18        	6402373705728000              	1280      
+19        	121645100408832000            	1280      
+20        	2432902008176640000           	1706      
 
-Index	Factorial                     	Ex Time   	(NON-RECURSIVE FACTORIAL)
-1    	1                             	427       
-2    	2                             	107094    
-3    	6                             	248747    
-4    	24                            	369068    
-5    	120                           	507308    
-6    	720                           	613121    
-7    	5040                          	735575    
-8    	40320                         	859308    
-9    	362880                        	961709    
-10   	3628800                       	1061549   
-11   	39916800                      	1158829   
-12   	479001600                     	1285549   
-13   	6227020800                    	1391789   
-14   	87178291200                   	1493336   
-15   	1307674368000                 	1593176   
-16   	20922789888000                	1700697   
-17   	355687428096000               	1797977   
-18   	6402373705728000              	1892270   
-19   	121645100408832000            	1989550   
-20   	2432902008176640000           	2100057   
+Test Value	Factorial                     	Ex Time   	(NON-RECURSIVE FACTORIAL)
+1         	1                             	6400      
+2         	2                             	427       
+3         	6                             	854       
+4         	24                            	1280      
+5         	120                           	853       
+6         	720                           	853       
+7         	5040                          	853       
+8         	40320                         	1280      
+9         	362880                        	854       
+10        	3628800                       	1280      
+11        	39916800                      	853       
+12        	479001600                     	854       
+13        	6227020800                    	426       
+14        	87178291200                   	854       
+15        	1307674368000                 	854       
+16        	20922789888000                	854       
+17        	355687428096000               	854       
+18        	6402373705728000              	854       
+19        	121645100408832000            	853       
+20        	2432902008176640000           	854       
 
-Index	Fib Number     	Ex Time   	(RECURSIVE FIBONACCI)
-1    	1              	854       
-2    	1              	1019309   
-3    	2              	1080749   
-4    	3              	1189549   
-5    	5              	1283416   
-6    	8              	1368749   
-7    	13             	1451950   
-8    	21             	1604696   
-9    	34             	1705390   
-10   	55             	1819310   
-11   	89             	1936644   
-12   	144            	2057817   
-13   	233            	2166617   
-14   	377            	2341551   
-15   	610            	2437978   
-16   	987            	2536538   
-17   	1597           	2664965   
-18   	2584           	2820272   
-19   	4181           	2994352   
-20   	6765           	3229446   
+TEST FIBONACCI METHODS
+Test Value	Fib Number     	Ex Time   	(RECURSIVE FIBONACCI)
+2         	1              	866562    
+4         	3              	1280      
+6         	8              	2560      
+8         	21             	4693      
+10        	55             	32427     
+12        	144            	27734     
+14        	377            	70400     
+16        	987            	39253     
+18        	2584           	76800     
+20        	6765           	183467    
+22        	17711          	438187    
+24        	46368          	426668    
+26        	121393         	713815    
+28        	317811         	2463577   
+30        	832040         	5396062   
+32        	2178309        	14018584  
+34        	5702887        	39345987  
+36        	14930352       	133550735 
+38        	39088169       	265979334 
+40        	102334155      	813670082 
 
-Index	Fib Number     	Ex Time   	(NON-RECURSIVE FIBONACCI)
-1    	1              	426       
-2    	1              	96426     
-3    	2              	166826    
-4    	3              	241067    
-5    	5              	326400    
-6    	8              	427094    
-7    	13             	518400    
-8    	21             	778241    
-9    	34             	858028    
-10   	55             	960428    
-11   	89             	1041495   
-12   	144            	1131948   
-13   	233            	1221975   
-14   	377            	1291948   
-15   	610            	1364482   
-16   	987            	1431042   
-17   	1597           	1510402   
-18   	2584           	1585922   
-19   	4181           	1652482   
-20   	6765           	1741229   
+Test Value	Fib Number     	Ex Time   	(NON-RECURSIVE FIBONACCI)
+2         	1              	6400      
+4         	3              	853       
+6         	8              	426       
+8         	21             	853       
+10        	55             	427       
+12        	144            	427       
+14        	377            	426       
+16        	987            	854       
+18        	2584           	853       
+20        	6765           	854       
+22        	17711          	853       
+24        	46368          	853       
+26        	121393         	853       
+28        	317811         	853       
+30        	832040         	1280      
+32        	2178309        	854       
+34        	5702887        	1280      
+36        	14930352       	1280      
+38        	39088169       	1280      
+40        	102334155      	1280      
 
+TEST PALINDROME METHODS
+Test Value               	Palindrome?         	Ex Time   	(RECURSIVE PALINDROME)
+palindrome               	false               	807682    
+recursion                	false               	16640     
+aba                      	true                	11947     
+abacus                   	false               	11093     
+noon                     	true                	11093     
+246191642                	true                	12373     
+Star for a jar of rats   	true                	79787     
+not a palindrome         	false               	19200     
+12345                    	false               	17920     
+01110111                 	false               	11520     
+NEVER ODD OR EVEN        	true                	22186     
+never odd?, or even?     	true                	25173     
+Nev3r 0Dd 0R 3vEn        	true                	21760     
+never ODD OR EVen        	true                	20480     
+neither odd nor even     	false               	20054     
+13331                    	true                	11946     
+abcde1234                	false               	11520     
+factorial!?              	false               	18773     
+789878987                	true                	12800     
+877789                   	false               	12800     
 
-Index                    	Palindrome?         	Ex Time   	(RECURSIVE PALINDROME)
-palindrome               	false               	427       
-recursion                	false               	1279149   
-aba                      	true                	1371736   
-abacus                   	false               	1450243   
-noon                     	true                	1536856   
-246191642                	true                	1612377   
-Star for a jar of rats   	true                	1696003   
-not a palindrome         	false               	1914457   
-12345                    	false               	2009604   
-01110111                 	false               	2098351   
-NEVER ODD OR EVEN        	true                	2181124   
-never odd?, or even?     	true                	2276698   
-Nev3r 0Dd 0R 3vEn        	true                	2375258   
-never ODD OR EVen        	true                	2464431   
-neither odd nor even     	false               	2553178   
-13331                    	true                	2640218   
-abcde1234                	false               	2711898   
-factorial!?              	false               	2791259   
-789878987                	true                	2878725   
-877789                   	false               	2956805   
+Test Value               	Palindrome?         	Ex Time   	(NON-RECURSIVE PALINDROME)
+palindrome               	false               	41387     
+recursion                	false               	14933     
+aba                      	true                	17067     
+abacus                   	false               	13226     
+noon                     	true                	12800     
+246191642                	true                	15360     
+Star for a jar of rats   	true                	51626     
+not a palindrome         	false               	25600     
+12345                    	false               	14506     
+01110111                 	false               	14080     
+NEVER ODD OR EVEN        	true                	34987     
+never odd?, or even?     	true                	66560     
+Nev3r 0Dd 0R 3vEn        	true                	43521     
+never ODD OR EVen        	true                	48640     
+neither odd nor even     	false               	41813     
+13331                    	true                	18773     
+abcde1234                	false               	21333     
+factorial!?              	false               	30720     
+789878987                	true                	24747     
+877789                   	false               	18774     
 
+TEST BINARY METHODS
+Key                      	Index               	Ex Time   	(RECURSIVE BINARY WITH MULTIPLES OF 3)
+533                      	-178                	977922    
 
-Index                    	Palindrome?         	Ex Time   	(NON-RECURSIVE PALINDROME)
-palindrome               	false               	426       
-recursion                	false               	134827    
-aba                      	true                	221013    
-abacus                   	false               	293120    
-noon                     	true                	384000    
-246191642                	true                	466347    
-Star for a jar of rats   	true                	551681    
-not a palindrome         	false               	658774    
-12345                    	false               	755201    
-01110111                 	false               	830295    
-NEVER ODD OR EVEN        	true                	906668    
-never odd?, or even?     	true                	1003521   
-Nev3r 0Dd 0R 3vEn        	true                	1114882   
-never ODD OR EVen        	true                	1213868   
-neither odd nor even     	false               	1311149   
-13331                    	true                	1409709   
-abcde1234                	false               	1482242   
-factorial!?              	false               	1556056   
-789878987                	true                	1646936   
-877789                   	false               	1730563   
+Key                      	Index               	Ex Time   	(RECURSIVE BINARY WITH RANDOMS)
+2924                     	-21                 	1707      
+851                      	-11                 	1280      
+2634                     	-19                 	1280      
+212                      	-1                  	853       
+2180                     	-19                 	1280      
+2494                     	-19                 	1280      
+55                       	-1                  	1280      
+415                      	-11                 	1280      
+154                      	-1                  	854       
+301                      	9                   	426       
+2516                     	-19                 	1280      
+2608                     	-19                 	1280      
+1536                     	-16                 	1280      
+1683                     	-16                 	1280      
+1279                     	14                  	854       
+2707                     	-19                 	1280      
+2196                     	-19                 	853       
+1968                     	17                  	853       
+2838                     	18                  	853       
+600                      	-11                 	1280      
+
+Key                      	Index               	Ex Time   	(NON RECURSIVE BINARY WITH MULTIPLES OF 3)
+600                      	199                 	9386      
+
+Key                      	Index               	Ex Time   	(NON RECURSIVE BINARY WITH RANDOMS)
+2924                     	-1                  	1280      
+851                      	-1                  	1280      
+2634                     	-1                  	853       
+212                      	-1                  	853       
+2180                     	-1                  	854       
+2494                     	-1                  	1280      
+55                       	-1                  	853       
+415                      	-1                  	854       
+154                      	-1                  	854       
+301                      	9                   	427       
+2516                     	-1                  	853       
+2608                     	-1                  	853       
+1536                     	-1                  	853       
+1683                     	-1                  	854       
+1279                     	14                  	427       
+2707                     	-1                  	854       
+2196                     	-1                  	1280      
+1968                     	17                  	854       
+2838                     	18                  	1280      
+600                      	-1                  	1280      

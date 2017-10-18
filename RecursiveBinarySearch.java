@@ -21,7 +21,16 @@ public class RecursiveBinarySearch {
             return binarySearch(list, key, mid + 1, high);
     }//end binarySearch
 
-    public static int nBinarySearch(){
-        return 0;
+    public static int nBinarySearch(int[] list, int key){
+            int low = 0;
+            int high = list.length - 1;
+            while (low <= high) {
+                int mid = (low + high)/2;
+                if (list[mid] == key) return mid;
+                else if (list[mid] < key) low = mid + 1;
+                else high = mid - 1;
+            }
+            return -1;
+        }
     } // end nBinarySearch
-}
+
