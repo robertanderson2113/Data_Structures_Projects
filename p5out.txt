@@ -1,0 +1,133 @@
+Index	Factorial                     	Ex Time   	(RECURSIVE FACTORIAL)
+1    	1                             	427       
+2    	2                             	1663150   
+3    	6                             	1802243   
+4    	24                            	2330031   
+5    	120                           	2464005   
+6    	720                           	2588592   
+7    	5040                          	2708912   
+8    	40320                         	2815579   
+9    	362880                        	2970459   
+10   	3628800                       	3087792   
+11   	39916800                      	3227739   
+12   	479001600                     	3381340   
+13   	6227020800                    	3525126   
+14   	87178291200                   	3692807   
+15   	1307674368000                 	3811420   
+16   	20922789888000                	3964594   
+17   	355687428096000               	4089181   
+18   	6402373705728000              	4251314   
+19   	121645100408832000            	4362248   
+20   	2432902008176640000           	4480008   
+
+Index	Factorial                     	Ex Time   	(NON-RECURSIVE FACTORIAL)
+1    	1                             	427       
+2    	2                             	107094    
+3    	6                             	248747    
+4    	24                            	369068    
+5    	120                           	507308    
+6    	720                           	613121    
+7    	5040                          	735575    
+8    	40320                         	859308    
+9    	362880                        	961709    
+10   	3628800                       	1061549   
+11   	39916800                      	1158829   
+12   	479001600                     	1285549   
+13   	6227020800                    	1391789   
+14   	87178291200                   	1493336   
+15   	1307674368000                 	1593176   
+16   	20922789888000                	1700697   
+17   	355687428096000               	1797977   
+18   	6402373705728000              	1892270   
+19   	121645100408832000            	1989550   
+20   	2432902008176640000           	2100057   
+
+Index	Fib Number     	Ex Time   	(RECURSIVE FIBONACCI)
+1    	1              	854       
+2    	1              	1019309   
+3    	2              	1080749   
+4    	3              	1189549   
+5    	5              	1283416   
+6    	8              	1368749   
+7    	13             	1451950   
+8    	21             	1604696   
+9    	34             	1705390   
+10   	55             	1819310   
+11   	89             	1936644   
+12   	144            	2057817   
+13   	233            	2166617   
+14   	377            	2341551   
+15   	610            	2437978   
+16   	987            	2536538   
+17   	1597           	2664965   
+18   	2584           	2820272   
+19   	4181           	2994352   
+20   	6765           	3229446   
+
+Index	Fib Number     	Ex Time   	(NON-RECURSIVE FIBONACCI)
+1    	1              	426       
+2    	1              	96426     
+3    	2              	166826    
+4    	3              	241067    
+5    	5              	326400    
+6    	8              	427094    
+7    	13             	518400    
+8    	21             	778241    
+9    	34             	858028    
+10   	55             	960428    
+11   	89             	1041495   
+12   	144            	1131948   
+13   	233            	1221975   
+14   	377            	1291948   
+15   	610            	1364482   
+16   	987            	1431042   
+17   	1597           	1510402   
+18   	2584           	1585922   
+19   	4181           	1652482   
+20   	6765           	1741229   
+
+
+Index                    	Palindrome?         	Ex Time   	(RECURSIVE PALINDROME)
+palindrome               	false               	427       
+recursion                	false               	1279149   
+aba                      	true                	1371736   
+abacus                   	false               	1450243   
+noon                     	true                	1536856   
+246191642                	true                	1612377   
+Star for a jar of rats   	true                	1696003   
+not a palindrome         	false               	1914457   
+12345                    	false               	2009604   
+01110111                 	false               	2098351   
+NEVER ODD OR EVEN        	true                	2181124   
+never odd?, or even?     	true                	2276698   
+Nev3r 0Dd 0R 3vEn        	true                	2375258   
+never ODD OR EVen        	true                	2464431   
+neither odd nor even     	false               	2553178   
+13331                    	true                	2640218   
+abcde1234                	false               	2711898   
+factorial!?              	false               	2791259   
+789878987                	true                	2878725   
+877789                   	false               	2956805   
+
+
+Index                    	Palindrome?         	Ex Time   	(NON-RECURSIVE PALINDROME)
+palindrome               	false               	426       
+recursion                	false               	134827    
+aba                      	true                	221013    
+abacus                   	false               	293120    
+noon                     	true                	384000    
+246191642                	true                	466347    
+Star for a jar of rats   	true                	551681    
+not a palindrome         	false               	658774    
+12345                    	false               	755201    
+01110111                 	false               	830295    
+NEVER ODD OR EVEN        	true                	906668    
+never odd?, or even?     	true                	1003521   
+Nev3r 0Dd 0R 3vEn        	true                	1114882   
+never ODD OR EVen        	true                	1213868   
+neither odd nor even     	false               	1311149   
+13331                    	true                	1409709   
+abcde1234                	false               	1482242   
+factorial!?              	false               	1556056   
+789878987                	true                	1646936   
+877789                   	false               	1730563   
