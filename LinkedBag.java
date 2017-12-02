@@ -1,4 +1,4 @@
-package project3;
+package com.company;
 
 /**
  A class of bags whose entries are stored in a chain of linked nodes.

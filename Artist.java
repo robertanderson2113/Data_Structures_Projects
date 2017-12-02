@@ -1,4 +1,4 @@
-package project3;
+package com.company;
 
 import java.util.Collections;
 import java.util.Comparator;
@@ -37,7 +37,7 @@ public class Artist {
         this.artistId = idCounter;
         this.artistName = artistName ;
         this.addDelete = addDelete;
-            }
+    }
 
 
     //return the artistName
@@ -79,4 +79,7 @@ public class Artist {
         this.addDelete = addDelete;
     }
 
+    public int getArtId() {
+        return artId;
+    }
 }

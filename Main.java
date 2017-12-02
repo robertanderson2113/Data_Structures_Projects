@@ -1,4 +1,11 @@
-package project3;
+package com.company;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Scanner;
 
 import java.io.*;
 import java.util.*;
@@ -6,15 +13,15 @@ import java.util.*;
 public class Main extends LinkedBag {
 
     public static void main(String[] args) throws IOException {
-        int idCounter = 61;
+        int idCounter = 1;
 
         //create files using the FileCreator class
-        PrintWriter toFile1 = createTextFile("Z:\\IdeaProjects\\Project_3\\src\\project3\\p3artists.txt");
-        PrintWriter toFile2 = createTextFile("Z:\\IdeaProjects\\Project_3\\src\\project3\\p3artists_arts.txt");
+        PrintWriter toFile1 = createTextFile("C:\\Users\\Robert Anderson\\IdeaProjects\\Project_3\\src\\com\\company\\p3artists.txt");
+        PrintWriter toFile2 = createTextFile("C:\\Users\\Robert Anderson\\IdeaProjects\\Project_3\\src\\com\\company\\p3artists_arts.txt");
 
-        Scanner inFile1 = new Scanner(new File("Z:\\IdeaProjects\\Project_3\\src\\project3\\p1artists.txt")).useDelimiter("\t");
-        Scanner inFile2 = new Scanner(new File("Z:\\IdeaProjects\\Project_3\\src\\project3\\p2changes.txt")).useDelimiter("\t");
-        Scanner inFile3 = new Scanner(new File("Z:\\IdeaProjects\\Project_3\\src\\project3\\p1arts.txt")).useDelimiter("\t");
+        Scanner inFile1 = new Scanner(new File("C:\\Users\\Robert Anderson\\IdeaProjects\\Project_3\\src\\com\\company\\\\p1artists.txt")).useDelimiter(",");
+        Scanner inFile2 = new Scanner(new File("C:\\Users\\Robert Anderson\\IdeaProjects\\Project_3\\src\\com\\company\\p2changes.txt")).useDelimiter(",");
+        Scanner inFile3 = new Scanner(new File("C:\\Users\\Robert Anderson\\IdeaProjects\\Project_3\\src\\com\\company\\p1arts.txt")).useDelimiter("\t");
 
         Artist[] artistArrayArtists = new Artist[60];
         Artist[] artistArrayChanges = new Artist[30];
@@ -22,8 +29,11 @@ public class Main extends LinkedBag {
         ArrayList<Artist> artistList = new ArrayList<>();
         ArrayList<Artist> artistList2 = new ArrayList<>();
         LinkedBag<Artist> artistLinkedBag = new LinkedBag<>();
+        ArrayList<List> artistLinkedList = new ArrayList<>();
 
         //put the contents of the first file into an array
+        long startTime = System.nanoTime();
+
         while (inFile1.hasNextLine()) {
             for (int i = 0; i < artistArrayArtists.length; i++) {
                 String[] line = inFile1.nextLine().split(",");
@@ -35,7 +45,7 @@ public class Main extends LinkedBag {
 
         while (inFile2.hasNextLine()) {
             for (int i = 0; i < artistArrayChanges.length; i++) {
-                String[] line2 = inFile2.nextLine().split("\t");
+                String[] line2 = inFile2.nextLine().split(",");
                 if (line2[0].equalsIgnoreCase("D")) {
                     for (Artist each : artistList) {
                         if (Integer.valueOf(line2[1]) == each.getArtistId()) {
@@ -43,7 +53,7 @@ public class Main extends LinkedBag {
                             each.setArtistId(0);
                             each.setAddDelete("T");
                             each.setArtistName(null);
-                            artistList.remove(each);
+                            //artistList.remove(each);
 
                         }
                     }
@@ -73,27 +83,30 @@ public class Main extends LinkedBag {
                     if (anArtistArray1.getArtistId() == i) {
                         artistLinkedBag.add(anArtistArray1);
                     }
-                }
-            }
+                    if(anArtistArray1.getArtistId()==i && anArtistArray1.getArtistName() != null){
+                        for (Artist anArtistArray2 : artistList){
+                            if (anArtistArray2.getArtistId()==anArtistArray1.getArtistId()){
+                                anArtistArray2.setArtistName(anArtistArray1.getArtistName());
+                            }
+                        }
+                    }
+                    if(anArtistArray1.getArtistId()==i && anArtistArray1.getArtId() == 0){
+                            artistLinkedBag.remove(anArtistArray1);
+                    }
+                    if(anArtistArray1.getArtistName()==null){
+                        anArtistArray1.setArtistName("DELETED");
+                    }
+                        }
+                    }
 
-         // for (int i = 0; i < artistList.size(); i++) {
-         //     for (Artist anArtistArray1 : artistList) {
-         //         if (anArtistArray1.getArtistId() == i) {
-         //             artistLinkedBag.add(anArtistArray1);
-         //         }
-         //     }
-         // }
 
             //read the file to an array and print contents to console
-            long startTime = System.nanoTime();
             long endTime = System.nanoTime();
             long duration = (endTime - startTime);
 
             //Print out the size of the artist Bag to ensure no spaces are being left open and to prove items are actually being removed
             // toFile3.write("Total artists in the bag: " + artistBag1.getCurrentSize() + "\n");
-            toFile2.write("Total time of method: " + duration + "\n\n");
-
-
+            toFile1.write("Total time of method: " + duration + "\n\n");
             toFile1.write(Arrays.toString(artistLinkedBag.toArray()));
 
             //Print out the size of the artist Bag to ensure no spaces are being left open
@@ -133,7 +146,5 @@ public class Main extends LinkedBag {
     }
 
 }// end main
-
-
 
 

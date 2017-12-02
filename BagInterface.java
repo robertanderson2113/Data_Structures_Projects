@@ -1,4 +1,4 @@
-package project3;
+package com.company;
 
 /**
  An interface that describes the operations of a bag of objects.
