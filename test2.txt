@@ -1,0 +1,177 @@
+[1	Acconci	0	null	0	null	
+, 2	Ames	0	null	0	null	
+, 3	Aserty	0	null	0	null	
+, 4	Baron	0	null	0	null	
+, 5	Battenberg	0	null	0	null	
+, 6	Bindner	0	null	0	null	
+, 7	Blain	0	null	0	null	
+, 8	Blum	0	null	0	null	
+, 9	Budd	0	null	0	null	
+, 10	Cardenas	0	null	0	null	
+, 11	Carpenter	0	null	0	null	
+, 12	Chico	0	null	0	null	
+, 13	Colvin	0	null	0	null	
+, 14	Cox	0	null	0	null	
+, 15	Cridler	0	null	0	null	
+, 16	Curtis	0	null	0	null	
+, 17	Dawson	0	null	0	null	
+, 18	DiGrigoro	0	null	0	null	
+, 19	Dill	0	null	0	null	
+, 20	Edwards	0	null	0	null	
+, 21	Fleming	0	null	0	null	
+, 22	Fratt	0	null	0	null	
+, 23	Garber	0	null	0	null	
+, 24	Garin	0	null	0	null	
+, 25	Giama	0	null	0	null	
+, 26	Gilhooly	0	null	0	null	
+, 27	Gonzales	0	null	0	null	
+, 28	Guys	0	null	0	null	
+, 29	Hamend	0	null	0	null	
+, 30	Higgins	0	null	0	null	
+, 31	Hofmann	0	null	0	null	
+, 32	Ibe	0	null	0	null	
+, 33	Indiana	0	null	0	null	
+, 34	Ingraham	0	null	0	null	
+, 35	Irvin	0	null	0	null	
+, 36	Kerrihard	0	null	0	null	
+, 37	Kollasch	0	null	0	null	
+, 38	Kritz	0	null	0	null	
+, 39	Lerman	0	null	0	null	
+, 40	Long	0	null	0	null	
+, 41	Lowney	0	null	0	null	
+, 42	Lundquist	0	null	0	null	
+, 43	Lutes	0	null	0	null	
+, 44	Maglich	0	null	0	null	
+, 45	McGraw	0	null	0	null	
+, 46	McIver	0	null	0	null	
+, 47	Meglech	0	null	0	null	
+, 48	Metz	0	null	0	null	
+, 49	Miller	0	null	0	null	
+, 50	Mogan	0	null	0	null	
+, 51	Motherwell	0	null	0	null	
+, 52	Novarre	0	null	0	null	
+, 53	Odiezma	0	null	0	null	
+, 54	Ortega	0	null	0	null	
+, 55	Parker	0	null	0	null	
+, 56	Penn	0	null	0	null	
+, 57	Pierobon	0	null	0	null	
+, 58	Prinzen	0	null	0	null	
+, 59	Quiroz	0	null	0	null	
+, 60	Rath	0	null	0	null	
+, 50	null	1001	Red Rock Mountain	18000	null	
+, 52	null	1002	Offerings 	10000	null	
+, 12	null	1003	Spring Flowers	2400	null	
+, 64	null	1004	Seeking Shelter	52000	null	
+, 18	null	1005	The Hang	8000	null	
+, 32	null	1006	House Remembered	700	null	
+, 82	null	1007	Homage to the Ancestors	1200	null	
+, 26	null	1008	End of the Path	1900	null	
+, 28	null	1009	Amen	3000	null	
+, 71	null	1010	Untitled (land with adobe)	800	null	
+, 19	null	1011	Eve	975	null	
+, 74	null	1012	Man on Horseback	8000	null	
+, 3	null	1013	Superstitions	78000	null	
+, 45	null	1014	Plenty	500	null	
+, 46	null	1015	Punch	10000	null	
+, 65	null	1016	Untitled	6000	null	
+, 6	null	1017	Brittlecone	1300	null	
+, 8	null	1018	Mountain Scene	2500	null	
+, 61	null	1019	The White Heart	9300	null	
+, 73	null	1020	Untitled (Man holding coat)	3000	null	
+, 3	null	1021	Bead Wall	14000	null	
+, 69	null	1022	The Cowboy	4200	null	
+, 47	null	1023	Shooting the Rapids	1300	null	
+, 48	null	1024	Spirit and Nature	592	null	
+, 68	null	1025	Profile of a Woman	625	null	
+, 66	null	1026	Untitled (couple)	4000	null	
+, 47	null	1027	Mountain Climber	4700	null	
+, 50	null	1028	Tired Cowboy	4700	null	
+, 31	null	1029	Horseshoe Falls	15000	null	
+, 28	null	1030	Ash Bench	13000	null	
+, 34	null	1031	Inside/Out	3500	null	
+, 42	null	1032	Rising Sun	2000	null	
+, 77	null	1033	Untitled (Woman abstract)	2500	null	
+, 3	null	1034	Beaver Pole Jumble	28000	null	
+, 47	null	1035	Nature/Nurture	1300	null	
+, 5	null	1036	Blackhawk	25500	null	
+, 21	null	1037	Floating World	2350	null	
+, 1	null	1038	Spring Flowers	800	null	
+, 14	null	1039	Treachery	20000	null	
+, 47	null	1040	Night on the Praire	1300	null	
+, 29	null	1041	Night Version	3800	null	
+, 2	null	1042	Coffee on the Trail	7544	null	
+, 28	null	1043	Creosote Bushes	18000	null	
+, 43	null	1044	Mexican Fiesta	14000	null	
+, 38	null	1045	Leaf Patterns	2100	null	
+, 33	null	1046	Immediate Gratification	1500	null	
+, 44	null	1047	Medicine Man	2500	null	
+, 57	null	1048	Comfy Chair	800	null	
+, 7	null	1049	Buttercup with Red Lip	400	null	
+, 1	null	1050	Cattle Ranch	10000	null	
+, 36	null	1051	Night Version	7000	null	
+, 16	null	1052	American Rodeo	3500	null	
+, 6	null	1053	Blue Eyed Indian	40000	null	
+, 50	null	1054	Snake Charmer	4500	null	
+, 9	null	1055	Starlit Evening	9500	null	
+, 6	null	1056	Cavalry Is Coming	1900	null	
+, 66	null	1057	Untitled	4500	null	
+, 60	null	1058	The Gathering	250	null	
+, 17	null	1059	Dwelling	16000	null	
+, 42	null	1060	Story Sticks	650	null	
+, 78	null	1061	Untitled Mural	3520	null	
+, 41	null	1062	Cowboy and Saddle	18000	null	
+, 3	null	1063	Asleep in the Garden	110000	null	
+, 51	null	1064	Spirit Columns	7000	null	
+, 47	null	1065	Moonlite 	1300	null	
+, 76	null	1066	Untitled (still life)	19500	null	
+, 49	null	1067	Owl in Flight	7000	null	
+, 50	null	1068	Moonlight	9750	null	
+, 50	null	1069	Renaissance	5500	null	
+, 4	null	1070	Beginnings	27500	null	
+, 79	null	1071	Ride the Rapids	300	null	
+, 24	null	1072	Funnel	4500	null	
+, 15	null	1073	Dancing in the Light	4000	null	
+, 55	null	1074	Storm on the Rise	8000	null	
+, 6	null	1075	Western Boots and Spurs	6000	null	
+, 79	null	1076	Ride the Bronco	1500	null	
+, 6	null	1077	Bull Riding	5200	null	
+, 28	null	1078	Chuckwagon	32000	null	
+, 62	null	1079	Carrying the Mail	8000	null	
+, 59	null	1080	The Dust Behind	18000	null	
+, 13	null	1081	Coming Under Fire	650	null	
+, 29	null	1082	Spring Flowers	20000	null	
+, 64	null	1083	Untitled	2500	null	
+, 23	null	1084	Crossing the Platt River	2200	null	
+, 63	null	1085	Traces	20000	null	
+, 67	null	1086	Untitled (desert landscape)	18000	null	
+, 81	null	1087	Three Woman	20000	null	
+, 37	null	1088	Lessons	3700	null	
+, 53	null	1089	Life Lessons	4125	null	
+, 11	null	1090	Off the Grid	8000	null	
+, 54	null	1091	Stone Palette	11500	null	
+, 47	null	1092	Dressing Up	1300	null	
+, 62	null	1093	Antelopes 	12500	null	
+, 39	null	1094	Life Is Sweet	25000	null	
+, 61	null	1095	The Spirit	20000	null	
+, 10	null	1096	Ceremonial Sticks	15000	null	
+, 75	null	1097	Untitled (Sea)	2800	null	
+, 56	null	1098	Sweet Project	592	null	
+, 20	null	1099	Watch That Rattler	900	null	
+, 38	null	1100	Hungry Cowboys	750	null	
+, 58	null	1101	The Red Door	10000	null	
+, 14	null	1102	Crying Hats	10000	null	
+, 1	null	1103	Trail End	8000	null	
+, 70	null	1104	Untitled 	1800	null	
+, 80	null	1105	Meteor Show	10000	null	
+, 40	null	1106	Horse Corral	12500	null	
+, 35	null	1107	Striking It Rich	1750	null	
+, 77	null	1108	Untitled Mural	400	null	
+, 22	null	1109	Friends	16000	null	
+, 62	null	1110	Three Sisters	6500	null	
+, 72	null	1111	Untitled (man and crucifix)	3200	null	
+, 27	null	1112	Dark Canyon	8000	null	
+, 50	null	1113	Shadow House	5500	null	
+, 50	null	1114	Storytelling at the Campfire	18000	null	
+, 25	null	1115	Starry Night	8500	null	
+, 30	null	1116	Apache Warrior	23000	null	
+]
